@@ -19,10 +19,10 @@ const MovieCard = (props) => {
                         { movie.title }
                     </Link>
                 </h2>
-                <h3>{movie.rating}</h3>
-                <h3>{movie.director}</h3>
-                <h3>{movie.actor}</h3>
-                <p>{movie.description}</p>
+                <h3> Rating :{movie.rating}</h3>
+                <h3> DIrector: {movie.director}</h3>
+                <h3> Actor: {movie.actor}</h3>
+                <p>Desription: {movie.description}</p>
             </div>
         </div>
     )

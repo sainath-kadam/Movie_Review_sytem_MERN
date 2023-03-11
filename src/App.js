@@ -17,7 +17,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <NavScrollExample/>
+       
       <BrowserRouter>
         <Routes>
         <Route path='/' element={<HomePage />} />

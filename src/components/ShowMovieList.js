@@ -45,12 +45,15 @@ class ShowMovieList extends Component {
           <div className="row">
             <div className="col-md-12">
               <br />
-              <h2 className="display-4 text-center"> MOVIE REVIEW</h2>
+              <h2 className="display-4 text-center text-white"> MOVIE REVIEW</h2>
             </div>
 
             <div className="col-md-11">
               <Link to="/create-movie" className="btn btn-outline-warning float-right">
                 + Add New Review
+              </Link>
+              <Link to="/" className="btn btn-outline-warning float-left">
+                + Home
               </Link>
               <br />
               <br />

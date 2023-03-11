@@ -21,7 +21,7 @@ function NavScrollExample() {
 
             <Nav.Link href="/">Home</Nav.Link>
             
-            <Nav.Link href="/ShowMovieList">Revew List</Nav.Link>
+            <Nav.Link href="/ShowMovieList">Review List</Nav.Link>
             <Nav.Link href="/contact">Contact Me</Nav.Link>
             
            
